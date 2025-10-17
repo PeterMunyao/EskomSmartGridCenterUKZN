@@ -2,7 +2,7 @@
 
 ## System Overview
 
-<img src="rts.png" alt="PV rooftop" width="400" height="auto"/>
+<img src="rts.png" alt="PV rooftop" width="700" height="auto"/>
 
 
 # Feasible Rooftop PV Field Segments
