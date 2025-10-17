@@ -5,6 +5,17 @@ This project simulates PV smoothing and battery operation.
 
 ![PV Smoothing Illustration](rts.png)
 
+# Feasible Rooftop PV Field Segments
+
+| Segment | Tilt (°) | Azimuth (°) | No. of Modules |
+|---------|-----------|-------------|----------------|
+| 1       | 5.6       | 319.88      | 32             |
+| 2       | 2.8       | 146.61      | 32             |
+| 3       | 5.0       | 326.42      | 32             |
+| 4       | 3.0       | 315.21      | 32             |
+| 5       | 3.0       | 134.65      | 64             |
+
+
 ![PV Smoothing Illustration](max_ramp.png)
 
 # OSM-MEPS Detailed Analysis
