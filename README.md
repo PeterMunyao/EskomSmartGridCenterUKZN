@@ -4,3 +4,8 @@ This project simulates PV smoothing and battery operation.
 ## System Overview
 
 ![PV Smoothing Illustration](rts.png)
+
+
+![PV Smoothing Illustration](OSM_MEPS_Max_Ramp_Analysis.pdf)
+
+![PV Smoothing Illustration](OSM_MEPS_Max_Ramp_Analysis.pdf)
