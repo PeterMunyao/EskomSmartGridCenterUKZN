@@ -78,7 +78,7 @@
 
 **Peak Time Alignment:**
 - Original: 2024-01-12 09:55:00+00:00
-- Bell Curve: 2024-01-12 09:45:00+00:00
+- Smoothing/Bell Curve: 2024-01-12 09:45:00+00:00
 - Basic: 2024-01-12 09:45:00+00:00
 
 **Morning-Afternoon Symmetry:**
