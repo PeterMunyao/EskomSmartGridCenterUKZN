@@ -45,3 +45,43 @@
 
 
 ![PV Smoothing Illustration](smoothing.png)
+
+
+# Smoothing Algorithm
+
+**Detected daily pattern:**
+- Peak: 95.8 kW at 2024-01-12 09:55:00+00:00
+- Sunrise: 2024-01-12 05:00:00+00:00
+- Sunset: 2024-01-12 15:30:00+00:00
+
+## Performance Comparison
+
+**Original System:**
+- Max Ramp: 118.7 W/s
+- Power Range: 95.8 kW
+
+**Basic Smoothing:**
+- Max Ramp: 34.6 W/s
+- Ramp Reduction: 70.8%
+
+**Bell Curve Smoothing:**
+- Max Ramp: 22.3 W/s
+- Ramp Reduction: 81.2%
+- Peak Preservation: -1.2% vs basic
+
+**Battery Usage:**
+- Max Charge (Bell): 28.2 kW
+- Max Discharge (Bell): 22.6 kW
+- Battery Utilization: 66.0%
+
+## Bell Curve Preservation Analysis
+
+**Peak Time Alignment:**
+- Original: 2024-01-12 09:55:00+00:00
+- Bell Curve: 2024-01-12 09:45:00+00:00
+- Basic: 2024-01-12 09:45:00+00:00
+
+**Morning-Afternoon Symmetry:**
+- Original: 3.997
+- Bell Curve: 4.018
+- Closer to 1.0 = better symmetry preservation
