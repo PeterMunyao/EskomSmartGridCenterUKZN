@@ -8,4 +8,4 @@ This project simulates PV smoothing and battery operation.
 
 ![PV Smoothing Illustration](max_ramp.png)
 
-![PV Smoothing Illustration](smmothing.png)
+![PV Smoothing Illustration](smoothing.png)
