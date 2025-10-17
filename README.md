@@ -17,8 +17,6 @@
 
 ![PV Smoothing Illustration](max_ramp.png)
 
-# OSM-MEPS Detailed Analysis
-
 ## Power Characteristics
 - **Max Power:** 95.8 kW  
 - **Min Power:** 0.0 kW  
