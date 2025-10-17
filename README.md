@@ -2,7 +2,8 @@
 
 ## System Overview
 
-![PV Smoothing Illustration](rts.png)
+<img src="rts.png" alt="PV rooftop" width="400" height="auto"/>
+
 
 # Feasible Rooftop PV Field Segments
 
@@ -15,7 +16,7 @@
 | 5       | 3.0       | 134.65      | 64             |
 
 
-![PV Smoothing Illustration](max_ramp.png)
+![PV ramp calculation](max_ramp.png)
 
 ## Power Characteristics
 - **Max Power:** 95.8 kW  
