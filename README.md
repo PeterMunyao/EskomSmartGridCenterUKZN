@@ -3,4 +3,4 @@ This project simulates PV smoothing and battery operation.
 
 ## System Overview
 
-![PV Smoothing Illustration](images/pv_smoothing_diagram.png)
+![PV Smoothing Illustration](rts.png)
