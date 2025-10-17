@@ -100,7 +100,7 @@ fig.legend(all_lines, all_labels, loc='lower center', ncol=4, fontsize=16, frame
 
 # Save final figure
 plt.savefig(
-    "SMART_GRID_24h_DNI_CLOUDOPACITY_2024.pdf",
+    "SMART_GRID_MONTHLY_24HR_AVERAGED_GHI_CLOUDOPACITY_2024.pdf",
     format='pdf',
     bbox_inches='tight',
     facecolor=fig.get_facecolor()
