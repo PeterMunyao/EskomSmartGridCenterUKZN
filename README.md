@@ -16,6 +16,11 @@
 | 5       | 3.0       | 134.65      | 64             |
 
 
+![PV ENERGY MODELS](Aurora_PVLIB_OSMMEPS_PVWATTS.png
+)
+
+
+
 ![PV ramp calculation](max_ramp.png)
 
 ## Power Characteristics
@@ -87,5 +92,4 @@
 - Bell Curve: 4.018
 - Closer to 1.0 = better symmetry preservation
 
-![PV ENERGY MODELS](Aurora_PVLIB_OSMMEPS_PVWATTS.png
-)
+
