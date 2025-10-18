@@ -86,3 +86,6 @@
 - Original: 3.997
 - Bell Curve: 4.018
 - Closer to 1.0 = better symmetry preservation
+
+![PV ENERGY MODELS](Aurora_PVLIB_OSMMEPS_PVWATTS.png
+)
