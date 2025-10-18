@@ -19,6 +19,27 @@
 ![PV ENERGY MODELS](Aurora_PVLIB_OSMMEPS_PVWATTS.png
 )
 
+# System Configuration
+- **Total panels:** 192  
+- **Panel power:** 600 W each  
+- **Total DC capacity:** 115.2 kW  
+
+---
+
+## Processing Segments
+1. **Segment 1:** 32 panels, tilt = 5.6°, azimuth = 319.88214°  
+2. **Segment 2:** 32 panels, tilt = 2.8°, azimuth = 146.6122°  
+3. **Segment 3:** 32 panels, tilt = 5.0°, azimuth = 326.42346°  
+4. **Segment 4:** 32 panels, tilt = 3.0°, azimuth = 315.20587°  
+5. **Segment 5:** 64 panels, tilt = 3.0°, azimuth = 134.65346°  
+
+---
+
+## Annual Energy Results
+- **PVLIB:** 155,724 kWh  
+- **OSM-MEPS:** 147,892 kWh  
+- **PVWatts:** 154,167 kWh  
+- **Aurora (2021):** 162,646 kWh
 
 
 ![PV ramp calculation](max_ramp.png)
