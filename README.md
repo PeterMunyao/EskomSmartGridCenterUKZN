@@ -67,7 +67,7 @@ df = df[(df.index >= '2024-01-01') & (df.index < '2025-01-01')]
 - **Power Range:** 95.8 kW  
 
 ## Ramp Analysis
-- **Max Ramp Rate:** 118.7 W/s at 2024-01-12 11:30:00+00:00  
+- **Max Ramp Rate:** 118.7 W/s at 2024-01-12 13:30:00+00:00  
 - **Max 5-min Power Change:** 35.6 kW  
 
 ## Meteorological Conditions
@@ -94,9 +94,9 @@ df = df[(df.index >= '2024-01-01') & (df.index < '2025-01-01')]
 # Smoothing Algorithm
 
 **Detected daily pattern:**
-- Peak: 95.8 kW at 2024-01-12 09:55:00+00:00
-- Sunrise: 2024-01-12 05:00:00+00:00
-- Sunset: 2024-01-12 15:30:00+00:00
+- Peak: 95.8 kW at 2024-01-12 11:55:00+00:00
+- Sunrise: 2024-01-12 07:00:00+00:00
+- Sunset: 2024-01-12 17:30:00+00:00
 
 ## Performance Comparison
 
@@ -121,9 +121,9 @@ df = df[(df.index >= '2024-01-01') & (df.index < '2025-01-01')]
 ## Bell Curve Preservation Analysis
 
 **Peak Time Alignment:**
-- Original: 2024-01-12 09:55:00+00:00
-- Smoothing/Bell Curve: 2024-01-12 09:45:00+00:00
-- Basic: 2024-01-12 09:45:00+00:00
+- Original: 2024-01-12 11:55:00+00:00
+- Smoothing/Bell Curve: 2024-01-12 11:45:00+00:00
+- Basic: 2024-01-12 11:45:00+00:00
 
 **Morning-Afternoon Symmetry:**
 - Original: 3.997
