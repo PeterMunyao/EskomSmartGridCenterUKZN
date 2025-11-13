@@ -34,9 +34,18 @@ df = df[(df.index >= '2024-01-01') & (df.index < '2025-01-01')]
 | 5       | 3.0       | 134.65      | 64             |
 
 
+# Summary of Annual and Hourly Statistical Comparison Among PV Models
 
-![PV ENERGY MODELS](Aurora_PVLIB_OSMMEPS_PVWATTS.png
-)
+| Model | Annual (kWh) | Mean (kWh/h) | SD (kWh/h) |
+|-------|-------------|-------------|------------|
+| PVLIB | 149,465 | 17.060 | 24.582 |
+| OSM-MEPS | 147,892 | 16.881 | 25.048 |
+| PVWatts | 147,970 | 16.890 | 24.336 |
+| Aurora (2021) | 161,936 | 18.535 | 6.131 |
+
+*ANOVA (Hourly):* F = 12.0099, p = 7.45×10⁻⁸ (significant)  
+*Tukey HSD:* Aurora differs from others (p < 0.05)
+
 
 # System Configuration
 - **Total panels:** 192  
