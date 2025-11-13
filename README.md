@@ -59,8 +59,6 @@ df = df[(df.index >= '2024-01-01') & (df.index < '2025-01-01')]
 - **PVWatts:** 154,167 kWh  
 - **Aurora (2021):** 162,646 kWh
 
-
-
 ![PV ramp calculation](max_ramp.png)
 
 ## Power Characteristics
