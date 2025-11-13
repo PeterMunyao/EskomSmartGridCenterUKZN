@@ -20,7 +20,7 @@ df = df[(df.index >= '2024-01-01') & (df.index < '2025-01-01')]
 
 ## System Overview
 
-<img src="rts.png" alt="PV rooftop" width="700" height="auto"/>
+<img src="SGB.png" alt="PV rooftop" width="700" height="auto"/>
 
 
 # Feasible Rooftop PV Field Segments
