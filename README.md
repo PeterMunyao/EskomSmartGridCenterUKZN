@@ -81,7 +81,7 @@ df = df[(df.index >= '2024-01-01') & (df.index < '2025-01-01')]
 - **Can handle:** 120.0% of worst-case swing (+20.0% margin)  
 
 # Max Ramp Event Analysis
-**Event at 2024-01-12 11:30:00+00:00**
+**Event at 2024-01-12 13:30:00+00:00**
 - **Power:** 61.8 → 26.3 kW (Δ: -35.6 kW)  
 - **GHI:** 758.0 → 290.0 W/m²  
 - **Cloud:** 23.6% → 70.6%  
