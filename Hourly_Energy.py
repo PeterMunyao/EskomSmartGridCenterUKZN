@@ -97,7 +97,7 @@ for seg in field_segments:
     module_temp = 45 + poa_total / 1000 * (28 - df['air_temp'])
     dc_power_osm = panel_power_max * (1 + temp_coeff * (module_temp - 45))
     dc_power_osm *= poa_total / stc_irradiance
-    dc_power_osm *= (1 - 0.001 * df['relative_humidity'])
+    dc_power_osm *= (1 - 0.002 * df['relative_humidity'])
     ac_power_osm = dc_power_osm * inverter_efficiency
     scaled_power = ac_power_osm * num_panels
     actual_power = scaled_power * (1 - 0.01)
