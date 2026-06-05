@@ -61,9 +61,9 @@ This repository implements a **battery-assisted PV smoothing algorithm** that re
 
 This model is not just smoothing — it is a **hybrid control system** combining:
 
-- 📉 Signal processing → removes noise and short-term fluctuations  
+- 📉 PV power post processing → removes noise and short-term fluctuations  
 - ⚡ Control theory → enforces ramp-rate constraints  
-- 🔋 Energy storage physics → battery SOC evolution  
+- 🔋 Energy storage dynamics → battery SOC evolution  
 - 🌞 Solar structure preservation → maintains bell-curve PV shape  
 
 ---
