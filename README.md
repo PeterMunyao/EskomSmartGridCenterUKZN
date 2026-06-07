@@ -418,3 +418,32 @@ def bell_curve_smoothing(power_data, battery_power_kw, battery_energy_kwh,
 - Closer to 1.0 = better symmetry preservation
 
 
+#EXAMPLE_CODE
+
+import pandas as pd
+
+# 1. Sample data: 5-minute intervals
+data = {
+    'power_kw': [150, 155, 140, 180, 160, 205],
+    'time': pd.to_datetime([
+        '2026-06-07 12:00:00',
+        '2026-06-07 12:05:00', 
+        '2026-06-07 12:10:00', 
+        '2026-06-07 12:15:00', 
+        '2026-06-07 12:20:00', 
+        '2026-06-07 12:25:00'
+    ])
+}
+
+df = pd.DataFrame(data)
+
+# 2. Calculate absolute differences, skipping the first NaT/NaN
+abs_diffs = df['power_kw'].diff().abs()
+
+# 3. Find the largest swing and its corresponding time
+max_swing = abs_diffs.max()
+max_swing_idx = abs_diffs.idxmax()
+swing_time = df.loc[max_swing_idx, 'time']
+
+print(f"Largest Swing: {max_swing} kW")
+print(f"Time of Swing: {swing_time}")
